@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contact</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="../index.html" class="logo">Accueil</a>
+        <a href="parcours.html" class="nav-link">Parcours académique</a>
+        <a href="experiences.html" class="nav-link">experiences</a>
+        <a href="skills.html" class="nav-link">skills</a>
+        <a href="évenements.html" class="nav-link">évenements</a>
+        <a href="matières.html" class="nav-link">Matières étudiées</a>
+        <a href="passions.html" class="nav-link">passions</a>
+        <a href="Quiz.html" class="nav-link">Quiz</a>
+        <a href="iit.html" class="nav-link">IIT</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+    </div>
+
+<div class="content">
+    <h1>Contactez-moi</h1>
+
+    <form action="send_email.php" method="post" enctype="multipart/form-data">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Sujet :</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</div>
+
+</body>
+</html>
